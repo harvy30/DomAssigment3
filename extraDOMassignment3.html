@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>question 3</title>
+</head>
+
+<body>
+    <input type="radio" id="first">first
+    <br>
+    <input type="radio" id="second">second
+    <script type="text/javascript">
+    var _id = function _id(id) {
+        return document['getElementById'](id);
+    }
+    var first = _id('first');
+    var second = _id('second');
+
+    function func() {
+        first.checked = true;
+        second.checked = true;
+    }
+    func();
+    </script>
+</body>
+
+</html>
